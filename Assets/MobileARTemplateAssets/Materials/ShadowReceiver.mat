@@ -62,10 +62,10 @@ Material:
     - _Alpha: 0.5
     - _DotAlpha: 1
     - _DotEdgeScale: 1.25
-    - _DotLayoutScale: 15
+    - _DotLayoutScale: 1
     - _DotScale: 1.5
     - _DotSize: 15
-    - _PlaneAlpha: 0.382
+    - _PlaneAlpha: 0.555
     - _PlaneFresnel: 1
     - _PlaneOpacity: 0.5
     - _QueueControl: 1
@@ -74,6 +74,6 @@ Material:
     - _Shadow_Alpha: 1
     - _TextureScale: 4
     m_Colors:
-    - _ShadowColor: {r: 0.62329435, g: 1, b: 0.033018887, a: 1}
+    - _ShadowColor: {r: 0.3207547, g: 0.3207547, b: 0.3207547, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
