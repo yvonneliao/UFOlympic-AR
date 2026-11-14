@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ShadowReceiver
+  m_Name: ShadowReceiver-Mat
   m_Shader: {fileID: -6465566751694194690, guid: c395164bee0484f4391b2932dfff0ff8, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -65,15 +65,15 @@ Material:
     - _DotLayoutScale: 1
     - _DotScale: 1.5
     - _DotSize: 15
-    - _PlaneAlpha: 0.555
+    - _PlaneAlpha: 0.8
     - _PlaneFresnel: 1
     - _PlaneOpacity: 0.5
     - _QueueControl: 1
     - _QueueOffset: 0
-    - _ShadowAlpha: 0.85
+    - _ShadowAlpha: 0.8
     - _Shadow_Alpha: 1
     - _TextureScale: 4
     m_Colors:
-    - _ShadowColor: {r: 0.3207547, g: 0.3207547, b: 0.3207547, a: 1}
+    - _ShadowColor: {r: 0.1792453, g: 0.1792453, b: 0.1792453, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
