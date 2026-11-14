@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Unity.AI.Navigation;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.XR.ARFoundation;
@@ -24,7 +25,11 @@ public class myTapToPlace : MonoBehaviour
             if (_arRaycastManager.Raycast(_touchPosition, _hits, TrackableType.PlaneWithinPolygon))
             {
                 Pose _hitPose = _hits[0].pose;
-                Instantiate(_gameplayPrefab, _hitPose.position, _hitPose.rotation);
+                GameObject _spawnedGameplay = Instantiate(_gameplayPrefab, _hitPose.position, _hitPose.rotation);
+
+                NavMeshSurface _navSurface = _spawnedGameplay.GetComponent<NavMeshSurface>();
+                if (_navSurface != null) _navSurface.BuildNavMesh();
+
                 if (_spawnAudio != null) _spawnAudio.Play();
 
                 _barnSpawned = true;
