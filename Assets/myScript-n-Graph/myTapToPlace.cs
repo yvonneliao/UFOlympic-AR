@@ -44,6 +44,10 @@ public class myTapToPlace : MonoBehaviour
                 Pose _hitPose = _hits[0].pose;
                 GameObject _spawnedGameplay = Instantiate(_gameplayPrefab, _hitPose.position, _hitPose.rotation);
 
+                GameObject _ufo = GameObject.FindWithTag("Player");
+                if (_ufo != null)
+                    Variables.ActiveScene.Set("_UFOManager", _ufo);
+
                 GameObject _guardian = GameObject.FindWithTag("Guardian");
                 if (_guardian != null)
                     CustomEvent.Trigger(_guardian, "GameStart");
