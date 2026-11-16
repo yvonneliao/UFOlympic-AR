@@ -14,6 +14,7 @@ public class myScoreManager : MonoBehaviour
 
     private int _deductionCount = 0;
     private Coroutine _alertCoroutine;
+    private bool _isGameOverTriggered = false;
 
     private void Awake()
     {
@@ -63,12 +64,19 @@ public class myScoreManager : MonoBehaviour
             }
         }
 
-        if (_score < 0)
+        if (_score < 0 && !_isGameOverTriggered && _gameManager != null)
         {
-            if (_gameManager != null)
-            {
-                CustomEvent.Trigger(_gameManager, "GameOver", false);
-            }
+            _isGameOverTriggered = true;
+            StartCoroutine(_triggerGameOverDelayed(0.9f));
+        }
+    }
+
+    private IEnumerator _triggerGameOverDelayed(float _delay)
+    {
+        yield return new WaitForSeconds(_delay);
+        if (_gameManager != null)
+        {
+            CustomEvent.Trigger(_gameManager, "GameOver", false);
         }
     }
 

@@ -1059,6 +1059,7 @@ GameObject:
   - component: {fileID: 6535705489144384072}
   - component: {fileID: 7226005784482648170}
   - component: {fileID: 1738303335387184941}
+  - component: {fileID: 5103113197826169047}
   - component: {fileID: 3085595515795372853}
   m_Layer: 5
   m_Name: BeamButton
@@ -1125,6 +1126,24 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &5103113197826169047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2181981434232636049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24129ce88f3f244e9a227fd7b3523b91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::myButtonTextGlow
+  _pulseSpeed: 1.5
+  _minAlpha: 0.25
+  _maxAlpha: 1
+  _animateOuterGlow: 0
+  _minGlowPower: 0.1
+  _maxGlowPower: 0.8
 --- !u!114 &3085595515795372853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1482,6 +1501,13 @@ MonoBehaviour:
   _maxCount: 12
   _rangeX: 7
   _rangeZ: 6
+  _minPreySpacing: 0.7
+  _obstacleCheckRadius: 0.9
+  _checkHeightOffset: 0.7
+  _maxAttemptsPerSheep: 25
+  _obstacleLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
 --- !u!1 &3248376157395360431
 GameObject:
   m_ObjectHideFlags: 0
@@ -2874,7 +2900,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &4672336475106379119
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2892,7 +2918,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 16}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -11.099976, y: -46}
+  m_AnchoredPosition: {x: -16, y: -58}
   m_SizeDelta: {x: 280, y: 30}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &7220349177181795441
