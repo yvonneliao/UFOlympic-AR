@@ -55,6 +55,25 @@ public class myTapToPlace : MonoBehaviour
                 NavMeshSurface _navSurface = _spawnedGameplay.GetComponent<NavMeshSurface>();
                 if (_navSurface != null) _navSurface.BuildNavMesh();
 
+                GameObject _gameManager = GameObject.Find("Game Manager");
+                if (_gameManager != null)
+                {
+                    int _initialPrey = GameObject.FindGameObjectsWithTag("Prey").Length;
+                    Variables.Object(_gameManager).Set("preyCount", _initialPrey);
+
+                    Transform _transition = _spawnedGameplay.transform.Find("MeshParent/Game Canvas/Transition");
+                    if (_transition != null)
+                    {
+                        CanvasGroup _transitionGroup = _transition.GetComponent<CanvasGroup>();
+                        if (_transitionGroup != null)
+                        {
+                            _transitionGroup.alpha = 0f;
+                            _transition.gameObject.SetActive(true);
+                            Variables.Object(_gameManager).Set("transitionGroup", _transitionGroup);
+                        }
+                    }
+                }
+
                 if (_spawnAudio != null) _spawnAudio.Play();
 
                 _barnSpawned = true;
