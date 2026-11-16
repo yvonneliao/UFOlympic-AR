@@ -19,8 +19,7 @@ public class myPreySpawner : MonoBehaviour
             float _randomZ = Random.Range(-_rangeZ, _rangeZ);
             Vector3 _spawnPos = transform.TransformPoint(new Vector3(_randomX, 0f, _randomZ));
 
-            Quaternion _randomRot = Quaternion.Euler(0f, Random.Range(0f, 360f), 0f);
-            Instantiate(_preyPrefab, _spawnPos, _randomRot, transform);
+            Instantiate(_preyPrefab, _spawnPos, transform.rotation, transform);
         }
     }
 }
