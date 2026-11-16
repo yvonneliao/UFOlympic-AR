@@ -627,7 +627,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24129ce88f3f244e9a227fd7b3523b91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myButtonTextGlow
-  _pulseSpeed: 1
+  _pulseSpeed: 2
   _minAlpha: 0.3
   _maxAlpha: 1
   _animateOuterGlow: 1
@@ -646,7 +646,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: cd47a623f18d341d98fae35bff330039, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.05
+  m_Volume: 0.102
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -654,7 +654,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 10
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -757,7 +757,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8648870815144015578}
@@ -2527,7 +2527,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Score: 0'
+  m_text: 'SCORE: 0'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b55c85fe9d2e9e7419ce8bdf480c77c2, type: 2}
   m_sharedMaterial: {fileID: 4263339028399941434, guid: b55c85fe9d2e9e7419ce8bdf480c77c2, type: 2}
@@ -26567,6 +26567,14 @@ PrefabInstance:
     - target: {fileID: 7762225603881497127, guid: 34eaffaee21765547bd484480e84cd04, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -60.871002
+      objectReference: {fileID: 0}
+    - target: {fileID: 8206539275044877720, guid: 34eaffaee21765547bd484480e84cd04, type: 3}
+      propertyPath: m_Volume
+      value: 0.703
+      objectReference: {fileID: 0}
+    - target: {fileID: 8206539275044877720, guid: 34eaffaee21765547bd484480e84cd04, type: 3}
+      propertyPath: MinDistance
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8313778978359106632, guid: 34eaffaee21765547bd484480e84cd04, type: 3}
       propertyPath: m_LocalPosition.x
