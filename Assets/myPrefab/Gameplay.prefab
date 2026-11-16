@@ -596,7 +596,7 @@ MonoBehaviour:
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
+  m_DynamicPixelsPerUnit: 2.5
   m_PresetInfoIsWorld: 1
 --- !u!114 &629429919872655949
 MonoBehaviour:
@@ -869,8 +869,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294115072
-  m_fontColor: {r: 0, g: 1, b: 0.9490197, a: 1}
+    rgba: 4281085440
+  m_fontColor: {r: 0, g: 0.1792453, b: 0.17136638, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -887,19 +887,19 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 39
-  m_fontSizeBase: 39
+  m_fontSize: 43
+  m_fontSizeBase: 43
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 32
   m_VerticalAlignment: 2048
   m_textAlignment: 65535
-  m_characterSpacing: 2
+  m_characterSpacing: -4.5
   m_characterHorizontalScale: 1
-  m_wordSpacing: 14.4
+  m_wordSpacing: 14.6
   m_lineSpacing: -16.5
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
@@ -1109,7 +1109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.9019608}
+  m_Color: {r: 0, g: 1, b: 0.91385865, a: 0.9019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1138,8 +1138,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24129ce88f3f244e9a227fd7b3523b91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myButtonTextGlow
-  _pulseSpeed: 1.5
-  _minAlpha: 0.25
+  _pulseSpeed: 2.5
+  _minAlpha: 0.26
   _maxAlpha: 1
   _animateOuterGlow: 0
   _minGlowPower: 0.1

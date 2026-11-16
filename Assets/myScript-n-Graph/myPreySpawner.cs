@@ -35,8 +35,9 @@ public class myPreySpawner : MonoBehaviour
                 if (_isTooCloseToOtherPrey(_localPos, _spawnedLocalPositions))
                     continue;
 
-                Vector3 _checkWorldPos = transform.TransformPoint(new Vector3(_randomX, _checkHeightOffset, _randomZ));
-                if (Physics.CheckSphere(_checkWorldPos, _worldRadius, _obstacleLayers, QueryTriggerInteraction.Ignore))
+                float _effectiveHeight = Mathf.Max(_checkHeightOffset, _obstacleCheckRadius + 0.25f);
+                Vector3 _checkWorldPos = transform.TransformPoint(new Vector3(_randomX, _effectiveHeight, _randomZ));
+                if (_hasObstacleAt(_checkWorldPos, _worldRadius))
                     continue;
 
                 Vector3 _spawnPos = transform.TransformPoint(_localPos);
@@ -46,6 +47,18 @@ public class myPreySpawner : MonoBehaviour
                 break;
             }
         }
+    }
+
+    private bool _hasObstacleAt(Vector3 _checkWorldPos, float _worldRadius)
+    {
+        Collider[] _hits = Physics.OverlapSphere(_checkWorldPos, _worldRadius, _obstacleLayers, QueryTriggerInteraction.Ignore);
+        for (int _i = 0; _i < _hits.Length; _i++)
+        {
+            if (_hits[_i].GetComponentInParent<UnityEngine.XR.ARFoundation.ARPlane>() != null)
+                continue;
+            return true;
+        }
+        return false;
     }
 
     private bool _isTooCloseToOtherPrey(Vector3 _candidate, List<Vector3> _existing)
