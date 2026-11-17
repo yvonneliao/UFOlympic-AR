@@ -5,6 +5,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4123604066998475711}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
@@ -64,7 +65,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: b2133a5791bf7be40a8b27047ba9dd11, type: 2}
     - target: {fileID: 919132149155446097, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
@@ -72,16 +73,29 @@ PrefabInstance:
       value: BarnWindow (9)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
+--- !u!4 &4123604068559849881 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
+  m_PrefabInstance: {fileID: 4518031198695517810}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4518031198766135829
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4123604066998475711}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
@@ -141,7 +155,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: b2133a5791bf7be40a8b27047ba9dd11, type: 2}
     - target: {fileID: 919132149155446097, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
@@ -149,16 +163,29 @@ PrefabInstance:
       value: BarnWindow
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
+--- !u!4 &4123604068481048062 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
+  m_PrefabInstance: {fileID: 4518031198766135829}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4518031198772449016
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4123604066998475711}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
@@ -218,7 +245,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: b2133a5791bf7be40a8b27047ba9dd11, type: 2}
     - target: {fileID: 919132149155446097, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
@@ -226,16 +253,29 @@ PrefabInstance:
       value: BarnWindow (8)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
+--- !u!4 &4123604068483180819 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
+  m_PrefabInstance: {fileID: 4518031198772449016}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4518031199011438974
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4123604066998475711}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
@@ -295,7 +335,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: b2133a5791bf7be40a8b27047ba9dd11, type: 2}
     - target: {fileID: 919132149155446097, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
@@ -303,16 +343,29 @@ PrefabInstance:
       value: BarnWindow (2)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
+--- !u!4 &4123604068269090453 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
+  m_PrefabInstance: {fileID: 4518031199011438974}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4518031199070810285
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4123604066998475711}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
@@ -372,7 +425,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: b2133a5791bf7be40a8b27047ba9dd11, type: 2}
     - target: {fileID: 919132149155446097, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
@@ -380,16 +433,29 @@ PrefabInstance:
       value: BarnWindow (5)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
+--- !u!4 &4123604068176369478 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
+  m_PrefabInstance: {fileID: 4518031199070810285}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4518031199189020047
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4123604066998475711}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
@@ -449,7 +515,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: b2133a5791bf7be40a8b27047ba9dd11, type: 2}
     - target: {fileID: 919132149155446097, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
@@ -457,16 +523,29 @@ PrefabInstance:
       value: BarnWindow (3)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
+--- !u!4 &4123604068100098660 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
+  m_PrefabInstance: {fileID: 4518031199189020047}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4518031199338978155
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4123604066998475711}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 96d1a1e6b54768b44bbddfc336aa4646, type: 3}
@@ -526,7 +605,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 96d1a1e6b54768b44bbddfc336aa4646, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: b2133a5791bf7be40a8b27047ba9dd11, type: 2}
     - target: {fileID: 919132149155446097, guid: 96d1a1e6b54768b44bbddfc336aa4646, type: 3}
@@ -534,16 +613,29 @@ PrefabInstance:
       value: BarnDoorLeft
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 96d1a1e6b54768b44bbddfc336aa4646, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 96d1a1e6b54768b44bbddfc336aa4646, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96d1a1e6b54768b44bbddfc336aa4646, type: 3}
+--- !u!4 &4123604067908205696 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 96d1a1e6b54768b44bbddfc336aa4646, type: 3}
+  m_PrefabInstance: {fileID: 4518031199338978155}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4518031199384469605
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4123604066998475711}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
@@ -603,7 +695,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: b2133a5791bf7be40a8b27047ba9dd11, type: 2}
     - target: {fileID: 919132149155446097, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
@@ -611,16 +703,29 @@ PrefabInstance:
       value: BarnWindow (7)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
+--- !u!4 &4123604067904448398 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
+  m_PrefabInstance: {fileID: 4518031199384469605}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4518031199572542666
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4123604066998475711}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
@@ -680,7 +785,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: b2133a5791bf7be40a8b27047ba9dd11, type: 2}
     - target: {fileID: 919132149155446097, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
@@ -688,16 +793,29 @@ PrefabInstance:
       value: BarnWindow (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
+--- !u!4 &4123604067674628897 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
+  m_PrefabInstance: {fileID: 4518031199572542666}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4518031199745568804
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4123604066998475711}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 96d1a1e6b54768b44bbddfc336aa4646, type: 3}
@@ -757,7 +875,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 96d1a1e6b54768b44bbddfc336aa4646, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: b2133a5791bf7be40a8b27047ba9dd11, type: 2}
     - target: {fileID: 919132149155446097, guid: 96d1a1e6b54768b44bbddfc336aa4646, type: 3}
@@ -765,16 +883,29 @@ PrefabInstance:
       value: BarnDoorLeft (1)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 96d1a1e6b54768b44bbddfc336aa4646, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 96d1a1e6b54768b44bbddfc336aa4646, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 96d1a1e6b54768b44bbddfc336aa4646, type: 3}
+--- !u!4 &4123604067509999567 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 96d1a1e6b54768b44bbddfc336aa4646, type: 3}
+  m_PrefabInstance: {fileID: 4518031199745568804}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4518031199961281468
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4123604066998475711}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
@@ -834,7 +965,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: b2133a5791bf7be40a8b27047ba9dd11, type: 2}
     - target: {fileID: 919132149155446097, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
@@ -842,16 +973,29 @@ PrefabInstance:
       value: BarnWindow (6)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
+--- !u!4 &4123604067327906903 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
+  m_PrefabInstance: {fileID: 4518031199961281468}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4518031200139681771
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 4123604066998475711}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
@@ -911,7 +1055,7 @@ PrefabInstance:
       value: 2.497
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: b2133a5791bf7be40a8b27047ba9dd11, type: 2}
     - target: {fileID: 919132149155446097, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
@@ -919,16 +1063,29 @@ PrefabInstance:
       value: BarnWindow (4)
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
+--- !u!4 &4123604067115628544 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a4b43018278d3f4499612f311a463b1c, type: 3}
+  m_PrefabInstance: {fileID: 4518031200139681771}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4518031200290454612
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 436e2aac15fe0224886f1bef8ee25551, type: 3}
@@ -992,7 +1149,7 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 436e2aac15fe0224886f1bef8ee25551, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: b2133a5791bf7be40a8b27047ba9dd11, type: 2}
     - target: {fileID: 919132149155446097, guid: 436e2aac15fe0224886f1bef8ee25551, type: 3}
@@ -1000,10 +1157,53 @@ PrefabInstance:
       value: Barn
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 436e2aac15fe0224886f1bef8ee25551, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 436e2aac15fe0224886f1bef8ee25551, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 436e2aac15fe0224886f1bef8ee25551, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4123604067908205696}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 436e2aac15fe0224886f1bef8ee25551, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4123604067509999567}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 436e2aac15fe0224886f1bef8ee25551, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4123604068481048062}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 436e2aac15fe0224886f1bef8ee25551, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4123604067674628897}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 436e2aac15fe0224886f1bef8ee25551, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4123604068269090453}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 436e2aac15fe0224886f1bef8ee25551, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4123604068100098660}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 436e2aac15fe0224886f1bef8ee25551, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4123604067115628544}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 436e2aac15fe0224886f1bef8ee25551, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4123604068176369478}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 436e2aac15fe0224886f1bef8ee25551, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4123604067327906903}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 436e2aac15fe0224886f1bef8ee25551, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4123604067904448398}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 436e2aac15fe0224886f1bef8ee25551, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4123604068483180819}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 436e2aac15fe0224886f1bef8ee25551, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4123604068559849881}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 436e2aac15fe0224886f1bef8ee25551, type: 3}
 --- !u!4 &4123604066998475711 stripped
 Transform:

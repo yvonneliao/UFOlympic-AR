@@ -593,7 +593,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myDelayedAudio
   _clip: {fileID: 8300000, guid: 870f11c5c6a284abd845ac4b84e3429d, type: 3}
-  _delay: 1.5
+  _delay: 1
 --- !u!4 &292943253
 Transform:
   m_ObjectHideFlags: 0
