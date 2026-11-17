@@ -596,7 +596,7 @@ MonoBehaviour:
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 2.5
+  m_DynamicPixelsPerUnit: 1
   m_PresetInfoIsWorld: 1
 --- !u!114 &629429919872655949
 MonoBehaviour:
@@ -627,11 +627,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24129ce88f3f244e9a227fd7b3523b91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myButtonTextGlow
-  _pulseSpeed: 1.5
-  _minAlpha: 0.1
+  _pulseSpeed: 4
+  _minAlpha: 0.301
   _maxAlpha: 1
   _animateOuterGlow: 1
-  _minGlowPower: 0.1
+  _minGlowPower: 0.102
   _maxGlowPower: 1
 --- !u!82 &7798499546250758030
 AudioSource:
@@ -1138,8 +1138,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24129ce88f3f244e9a227fd7b3523b91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::myButtonTextGlow
-  _pulseSpeed: 2.5
-  _minAlpha: 0.26
+  _pulseSpeed: 4
+  _minAlpha: 0.332
   _maxAlpha: 1
   _animateOuterGlow: 0
   _minGlowPower: 0.1
@@ -1498,11 +1498,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   _preyPrefab: {fileID: 4446069608452107737, guid: 4e2aeb61b8ea29d46a2a776ec113e67e, type: 3}
   _minCount: 3
-  _maxCount: 12
+  _maxCount: 10
   _rangeX: 7
   _rangeZ: 6
-  _minPreySpacing: 0.7
-  _obstacleCheckRadius: 0.9
+  _minPreySpacing: 1.8
+  _obstacleCheckRadius: 2
   _checkHeightOffset: 0.7
   _maxAttemptsPerSheep: 25
   _obstacleLayers:

@@ -37,7 +37,7 @@ public class myPreySpawner : MonoBehaviour
 
                 float _effectiveHeight = Mathf.Max(_checkHeightOffset, _obstacleCheckRadius + 0.25f);
                 Vector3 _checkWorldPos = transform.TransformPoint(new Vector3(_randomX, _effectiveHeight, _randomZ));
-                if (_hasObstacleAt(_checkWorldPos, _worldRadius))
+                if (_hasObstacleAt(_checkWorldPos, _worldRadius) || _hasOverheadStructure(_randomX, _randomZ))
                     continue;
 
                 Vector3 _spawnPos = transform.TransformPoint(_localPos);
@@ -55,6 +55,23 @@ public class myPreySpawner : MonoBehaviour
         for (int _i = 0; _i < _hits.Length; _i++)
         {
             if (_hits[_i].GetComponentInParent<UnityEngine.XR.ARFoundation.ARPlane>() != null)
+                continue;
+            return true;
+        }
+        return false;
+    }
+
+    private bool _hasOverheadStructure(float _localX, float _localZ)
+    {
+        Vector3 _rayStart = transform.TransformPoint(new Vector3(_localX, 12f, _localZ));
+        Vector3 _rayEnd = transform.TransformPoint(new Vector3(_localX, 0.3f, _localZ));
+        Vector3 _dir = _rayEnd - _rayStart;
+        float _dist = _dir.magnitude;
+
+        RaycastHit[] _hits = Physics.RaycastAll(_rayStart, _dir / _dist, _dist, _obstacleLayers, QueryTriggerInteraction.Ignore);
+        for (int _i = 0; _i < _hits.Length; _i++)
+        {
+            if (_hits[_i].collider.GetComponentInParent<UnityEngine.XR.ARFoundation.ARPlane>() != null)
                 continue;
             return true;
         }
