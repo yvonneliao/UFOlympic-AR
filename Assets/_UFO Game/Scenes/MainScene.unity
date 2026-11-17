@@ -1083,7 +1083,7 @@ GameObject:
   - component: {fileID: 773278748}
   - component: {fileID: 773278747}
   m_Layer: 5
-  m_Name: ---CoachingCanvas
+  m_Name: CoachingCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1467,7 +1467,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2058507503}
   m_Layer: 0
-  m_Name: ---Cameras----
+  m_Name: ---Camera----
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1775,14 +1775,14 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 727206368}
-  - {fileID: 78518764}
-  - {fileID: 39043720}
-  - {fileID: 1439783988}
-  - {fileID: 2058507503}
-  - {fileID: 39789336}
-  - {fileID: 453527899}
   - {fileID: 705507995}
   - {fileID: 1184884608}
   - {fileID: 743207130}
+  - {fileID: 2058507503}
+  - {fileID: 39789336}
+  - {fileID: 453527899}
+  - {fileID: 78518764}
+  - {fileID: 39043720}
+  - {fileID: 1439783988}
   - {fileID: 126104421}
   - {fileID: 773278750}
