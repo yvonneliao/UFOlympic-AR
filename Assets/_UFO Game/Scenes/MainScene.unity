@@ -23,9 +23,9 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.48126557, g: 0.79668087, b: 0.9716981, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1.7
-  m_AmbientMode: 3
-  m_SubtractiveShadowColor: {r: 0.49368104, g: 0.583579, b: 0.8113208, a: 1}
+  m_AmbientIntensity: 1.08
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.495372, g: 0.73316586, b: 0.8679245, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: f686199a9bffbcc4dbf99684ae6f6baf, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -862,8 +862,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 12
   m_Type: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
+  m_Color: {r: 0.76161444, g: 0.9090647, b: 0.990566, a: 1}
+  m_Intensity: 1.42
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
